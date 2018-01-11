@@ -1,3 +1,10 @@
-input = [1,3,7,2,6]
-rearrange = input.sort
-puts rearrange
+ary = Array new[5]
+ary = [4,3,7,8,1]
+tem = 0
+ ary.each with index do(iind,ival)
+  ary.each with index do(jind,jval)
+    if (jind,jval)
+    temp = jval
+  ary[jind] = ary [iind]
+  ary[iind]=tem
+   end
