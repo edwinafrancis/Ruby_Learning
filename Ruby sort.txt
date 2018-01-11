@@ -3,7 +3,7 @@ ary = [4,3,7,8,1]
 tem = 0
  ary.each with index do(iind,ival)
   ary.each with index do(jind,jval)
-    if (jind,jval)
+    if (jind < jval)
     temp = jval
   ary[jind] = ary [iind]
   ary[iind]=tem
